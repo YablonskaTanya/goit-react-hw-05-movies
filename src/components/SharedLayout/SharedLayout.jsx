@@ -1,7 +1,8 @@
-import { NavLink } from 'react-router-dom';
-import css from './Navigation.module.css';
+import { Suspense } from 'react';
+import { NavLink, Outlet } from 'react-router-dom';
+import css from './SharedLayout.module.css';
 
-export const Nav = () => {
+export const SharedLayout = () => {
   return (
     <div className={css.container}>
       <header className={css.header}>
@@ -14,6 +15,9 @@ export const Nav = () => {
           </NavLink>
         </ul>
       </header>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Outlet />
+      </Suspense>
     </div>
   );
 };

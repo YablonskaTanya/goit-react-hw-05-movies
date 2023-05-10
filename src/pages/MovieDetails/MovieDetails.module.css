@@ -1,0 +1,46 @@
+.movieDetailsContainer {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.movieDetailsImg {
+  border-radius: 4px;
+}
+
+.movieOwerview {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex-basis: 600px;
+}
+
+.movieDetailsTitle {
+  margin-bottom: 20px;
+}
+
+.movieDetailsSubTotle {
+  margin-bottom: 30px;
+}
+
+.movieDetailsText {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.movieDetailsLincsList {
+  display: flex;
+  gap: 20px;
+}
+
+.movieDetailsLincs {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: inherit;
+}
+
+.movieDetailsLincs:focus,
+.movieDetailsLincs:hover {
+  color: orangered;
+}

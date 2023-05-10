@@ -1,0 +1,17 @@
+.goBackBtn {
+  border-radius: 4px;
+  border: transparent;
+
+  cursor: pointer;
+  padding: 10px;
+  color: orangered;
+}
+.goBackBtn:hover,
+.goBackBtn:focus {
+  background-color: orangered;
+  color: white;
+}
+
+.goBackBtnIcon {
+  fill: red;
+}

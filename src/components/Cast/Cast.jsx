@@ -1,6 +1,7 @@
 import { getCast } from 'Api/FetchMovies';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import css from './Cast.module.css';
 
 export const Cast = () => {
   const [cast, setCast] = useState([]);
@@ -15,11 +16,12 @@ export const Cast = () => {
   }
 
   return (
-    <div>
-      <ul>
+    <div className={css.castContainer}>
+      <ul className={css.castList}>
         {cast.map(actor => (
-          <li key={actor.id}>
+          <li className={css.castItem} key={actor.id}>
             <img
+              className={css.castImage}
               key={actor.id}
               src={
                 actor.profile_path
@@ -28,8 +30,8 @@ export const Cast = () => {
               }
               alt={actor.profile_path}
               loading="lazy"
-              width={120}
-              height={180}
+              width="100"
+              height="150"
             />
             {actor.name}
           </li>

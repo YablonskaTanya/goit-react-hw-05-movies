@@ -1,0 +1,16 @@
+.castContainer {
+  margin-top: 30px;
+}
+
+.castList {
+  display: flex;
+  gap: 15px;
+}
+
+.castItem {
+  width: 100px;
+  height: 100%;
+}
+.castImage {
+  object-fit: cover;
+}

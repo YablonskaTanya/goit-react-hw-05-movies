@@ -1,0 +1,12 @@
+.reviewsContainer {
+  margin-top: 30px;
+}
+.reviewsAuthor {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.reviewsContent {
+  margin-top: 20px;
+  font-size: 18px;
+}

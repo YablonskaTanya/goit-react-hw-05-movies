@@ -1,0 +1,37 @@
+.moviesList {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 5px; */
+}
+
+.moviesListTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 3px rgba(39, 35, 35, 0.5);
+}
+
+.moviesListItem {
+  display: flex;
+  justify-content: center;
+  flex-basis: calc((100% - 32px) / 3);
+  width: 100%;
+  border-radius: 5px;
+
+  padding: 5px;
+}
+
+.moviesListLink {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.moviesListImg {
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,28 @@
+.moviesForm {
+  display: flex;
+  gap: 10px;
+}
+.moviesInput {
+  padding: 10px;
+  border-radius: 4px;
+  border: transparent;
+  min-width: 300px;
+}
+
+.moviesBtn {
+  padding: 10px;
+  border-radius: 4px;
+  border: transparent;
+  cursor: pointer;
+  background-color: white;
+  color: orangered;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.moviesBtn:hover,
+.moviesBtn:focus {
+  background-color: orangered;
+  color: white;
+}
