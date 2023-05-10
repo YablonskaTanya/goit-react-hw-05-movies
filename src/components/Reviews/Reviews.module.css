@@ -10,3 +10,9 @@
   margin-top: 20px;
   font-size: 18px;
 }
+
+.reviewsList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

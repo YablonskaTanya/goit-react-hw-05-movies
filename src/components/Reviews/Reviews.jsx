@@ -17,7 +17,7 @@ export const Reviews = () => {
 
   return (
     <div className={css.reviewsContainer}>
-      <ul>
+      <ul className={css.reviewsList}>
         {reviews.length === 0
           ? "Sorry, we don't have reviews for this movie"
           : reviews.map(({ author, content, id }) => (
